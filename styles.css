@@ -28,7 +28,7 @@ li {
     justify-content: center;
 }
 
-.nav {
+.nav, .footer {
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
@@ -389,7 +389,7 @@ li {
 .id-container {
     width: 100%;
     height: 40%;
-    background-color: #0d3;
+    background-color: #0d3d76;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
@@ -398,14 +398,14 @@ li {
 
 .ideation h1 {
     font-size: 2rem;
-    color: #0d3d76;
+    color: #fff;
     margin-bottom: 20px;
     text-align: center;
 }
 
 .ideation p {
     font-size: 1rem;
-    color: #333;
+    color: #f0f0f0;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -676,4 +676,15 @@ form input, form textarea {
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+.footer {
+    width: 100%;
+    height: 20vh;
+    background-color: #0d3d76;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
