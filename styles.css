@@ -860,7 +860,7 @@ body::-webkit-scrollbar-thumb {
 
 /* --- Media Queries for Responsiveness --- */
 
-@media (max-width: 915px) {
+@media (max-width: 916px) {
     .hero-img img {
         width: 400px;
     }
@@ -964,6 +964,7 @@ body::-webkit-scrollbar-thumb {
 
     .cv-box {
         flex-direction: column;
+        margin-left: 8%;
     }
 
     .social-handles {
@@ -991,4 +992,348 @@ body::-webkit-scrollbar-thumb {
         width: 400px;
         margin-left: -50%;
     }
+
+    .p-card {
+        width: 45%;
+    }
+
+    .ideation h1 {
+        font-size: 1.6rem;
+    }
+    .ideation p {
+        margin: 5% 0 5% 1%;
+    }
+    .ideation .btn {
+        margin-left: 36%;
+    }
+
+    .blog-intro p {
+        margin-left: -45%;
+    }
+    .blog-card {
+        flex-direction: column;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .skills {
+        flex-direction: column;
+        margin-left: 10%;
+    }
+
+    .skills-txt{
+        text-align: center;
+        margin-left: -18%;
+    }
+    .skills-txt h2 {
+        width: 300px;
+    }
+    .skills-txt p {
+        width: 400px;
+        margin-left: -25%;
+        font-size: 1rem;
+    }
+    .skills-txt .btn {
+        margin-left: 45%;
+    }
+
+    .testimonial .quote {
+        margin-left: 10%;
+    }
+
+    .biz {
+        flex-direction: column;
+    }
+    .biz-txt h3 {
+        text-align: center;
+    }
+    .biz-txt p {
+        text-align: center;
+        font-size: 1rem;
+        margin: 0 0 5% -45%;
+        width: 400px;
+    }
+
+    .info-box {
+        width: 300px;
+    }
+    .icon-wrap {
+        background-color: transparent;
+    }
+    .icon-wrap i {
+        color: #0d3d76;
+    }
+
+    .left-form .social-handles {
+        margin: 5% 0 0 20%;
+        background-color: transparent;
+    }
+    .left-form .social-handles i {
+        color: #0d3d76;
+    }
+    
+    .contact-form p {
+        font-size: 1rem;
+        width: 300px;
+        text-align: center;
+        margin-left: 2%;
+    }
+
+    .footer .navbar .menu {
+        width: 100px;
+    }
 }
+
+@media (max-width: 415px) {
+    nav {
+        height: 16vh;
+    }
+
+    header .nav {
+        flex-direction: column;
+    }
+
+    header .logo {
+        margin: 5% 0 0 7%;
+    }
+
+    header .navbar {
+        margin: 5% 0 5% 10%;
+    }
+
+    .hero-img, .statistics-box {
+        display: none;
+    }
+    .hero-text p {
+        width: 350px;
+    }
+
+    .cv-img {
+        margin: 5% 0 10% -25%;
+    }
+
+    .cv-box .social-handles {
+        margin: 0 0 10% 45%;
+    }
+    .cv-box .social-handles i {
+        color: #000;
+    }
+
+    .about {
+        width: 330px;
+        margin-right: 10%;
+    }
+
+    .work-txt h1 {
+        margin-left: 10%;
+    }
+    .work-txt p {
+        display: none;
+    }
+    .process-container {
+        flex-direction: column;
+        margin-left: 20%;
+    }
+
+    .portfolio-intro h1 {
+        margin-left: -20%;
+    }
+    .portfolio-intro p {
+        display: none;
+    }
+    .portfolio-container {
+        flex-direction: column;
+    }
+    .p-card {
+        width: 80%;
+    }
+
+    .ideation p {
+        display: none;
+    }
+    .ideation .btn {
+        margin-left: 30%;
+        background-color: #a6c8f1;
+    }
+    
+    .blog-intro h1 {
+        margin-left: -10%;
+        text-align: center;
+    }    
+    .blog-intro p {
+        display: none;
+    }
+
+    .skills-txt h2 {
+        margin-left: -25%;
+    }
+    .skills-txt p, .skills-txt .btn {
+        display: none;
+    }
+    .skills-card p {
+        display: none;
+    }
+
+    .hc-txt p {
+        display: none;
+    }
+
+    .quote {
+        width: 310px;
+    }
+
+    .biz-txt p, .contact-address-container, .left-form .social-handles, .contact-form p {
+        display: none;
+    }
+
+    .contact-form form .submit-btn {
+        width: 90%;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer .logo {
+        margin-top: 10%;
+    }
+
+    .footer .navbar {
+        margin-left: 12%;
+    }
+
+    .footer-right {
+        margin: 0 0 5% 0;
+    }
+}
+
+
+@media (max-width: 345px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .navbar .menu {
+        margin: 0 0 5% 20%;
+    }
+
+    .hero-section {
+        flex-direction: column;
+    }
+    .hero-content {
+        margin-left: 100%;
+        text-align: center;
+    }
+    .hero-text h1 {
+        font-size: 2rem;
+        margin-left: 10%;
+    }
+    .hero-text p, .hero-text .btn {
+        display: none;
+    }
+
+    .statistics-box {
+        display: none;
+    }
+
+    .hero-img {
+        margin-left: 80%;
+    }
+    .cv-img {
+        display: none;
+    }
+
+    .about {
+        width: 310px;
+        margin-left: -10%;
+        padding: 11%;
+    }
+
+    .work-txt p {
+        text-align: center;
+    }
+    .process-container {
+        flex-direction: column;
+        margin-left: 20%;
+    }
+
+    .portfolio-intro h1 {
+        margin-left: -20%;
+    }
+    .portfolio-intro p {
+       display: none;
+    }
+    .portfolio-container {
+        flex-direction: column;
+    }
+    .p-card {
+        width: 85%;
+    }
+
+    .ideation p {
+        display: none;
+    }
+    .ideation .btn {
+        background-color: #92bbed;
+        margin-left: 30%;
+    }
+
+    .blog-intro h1 {
+        margin-left: 10%;
+    }
+    .blog-intro p {
+        display: none;
+    }
+
+    .skills-txt {
+        margin-left: -50%;
+    }
+
+    .skills-container {
+        margin-left: 15%;
+    }
+
+    .skills-card {
+        background-color: #0d3d76;
+        padding: 7%;
+    }
+    .skills-card h3 {
+        color: #fff;
+    }
+    .skills-card p, .skills-txt p, .skills-txt .btn, .hc-txt p {
+       display: none;
+    }
+     .testimonial .quote {
+        width: 310px;
+        margin-left: -1%;
+    }
+
+    .biz-txt p {
+        display: none;
+    }
+
+    .contact-address-container {
+        display: none;
+    }
+
+    .left-form .social-handles, .contact-form p {
+        display: none;
+    }
+    .contact-form .btn {
+        width: 60%;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+    .footer .logo {
+        margin-top: 15%;
+    }
+    .footer .navbar {
+        margin-left: 10%;
+    }
+    .footer-right {
+        margin: 5% 0 5% 10%;
+    }
+}
+    
